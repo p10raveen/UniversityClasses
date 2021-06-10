@@ -1,0 +1,84 @@
+Image Tag
+----------
+-> It is used to call Images in HTML.
+-> Image tag is a non paired tag.
+
+Arttibutes:
+	src:	path of image
+	border: border width in px
+	alt:    provides an alternative text for image.
+	width:  image width
+	height: image height
+	
+Example:
+<body>
+	<img src="C:/project/LNCTU/src/main/webapp/images/Desktop_image.jpg" border="50" width="30%" height="30%"/>
+</body>
+
+Anchor Tag
+-----------
+<a href="path">..</a>
+External Use:
+==============
+<body>
+	<a href="https://github.com/p10raveen/UniversityClasses">Click Me</a>
+</body>
+
+Internal Use:
+=============
+<body>
+	<a id="up" href="#down">Jump to Down</a>
+	<p>Enter Scrollable Content here</p>
+	<a id="down" href="#up">Jump to Up</a>
+
+</body>
+
+Table
+------
+<table>...</table>
+	<tr>...</tr>
+		<th>...</th> and <td>...</td>
+		
+Example:
+<table border="1" cellspacing="10" cellpadding="5" align="center">
+	<tr> <th>SNO</th> <th>NAME</th> <th>LOCATION</th></tr>
+	<tr align="center"> <td>1</td> <td>Akash</td> <td>Bhopal</td> </tr>
+	<tr> <td>2</td> <td>Pooja</td> <td>Indore</td> </tr>
+	<tr> <td>3</td> <td>Asha</td> <td>Delhi</td> </tr>
+	<tr> <td>4</td> <td>Mukesh</td> <td>Mumbai</td> </tr>
+	<tr> <td>5</td> <td>Rohini</td> <td>Jaipur</td> </tr>
+</table>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
