@@ -1,0 +1,147 @@
+Types of Tags
+-> There are two types of tags:
+	1. Paired Tag
+		<tag></tag>
+		
+	2. Non-Paired Tag
+		<tag/>
+
+Types of Paired Tag
+-------------------
+1. Basic Tags
+2. Formatting Tag
+3. Lists
+4. Tables
+5. Anchors
+6. Frames
+7. Forms
+
+1. Basic Tags
+-------------
+<html>....</html>
+	-> Marks the beginning and ending of the HTML document
+	-> HTML Document is divided into 2 parts:
+		<head>...</head>
+			-> All the things that need to be loaded prior to display.
+		<body>...</body>
+			-> It is mainly used to display elements.
+		
+2. Formatting Tag
+-----------------
+Heading tag: there are 6 levels of heading
+Example:
+	<h1>this is a heading 1</h1>
+	<h2>this is a heading 2</h2>
+	<h3>this is a heading 3</h3>
+	<h4>this is a heading 4</h4>
+	<h5>this is a heading 5</h5>
+	<h6>this is a heading 6</h6>
+	
+Paragraph Tag: It is used to display the content in paragraph format.	
+Example:
+<p align="center">India (Hindi: Bhārat), officially the Republic of India (Hindi: Bhārat Gaṇarājya),[23] is a country in South Asia. It is the second-most populous country, the seventh-largest country by land area, and the most populous democracy in the world. Bounded by the Indian Ocean on the south, the Arabian Sea on the southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west;[f] China, Nepal, and Bhutan to the north; and Bangladesh and Myanmar to the east. In the Indian Ocean, India is in the vicinity of Sri Lanka and the Maldives; its Andaman and Nicobar Islands share a maritime border with Thailand, Myanmar and Indonesia.</p>
+
+Preformatted Tag:
+<pre>
+	String date = request.getParameter("date");
+	out.println("html: "+date);
+	
+	out.println("");
+	
+	Date d = new Date();
+	out.println("old Java: "+d);
+	
+	SimpleDateFormat sdate = new SimpleDateFormat("yyyy-MM-dd");
+	String new_date= sdate.format(d);
+	
+	out.println("");
+	
+	out.println("new Java: "+new_date);
+	
+	</pre>
+
+Marquee Tag: It is used to scroll the displaying content
+	Attribute-
+		direction: left,right
+		bgcolor: color
+		width: in %
+		behaviour: alternate, slide
+		scrolldelay: time ms
+
+Example:
+<marquee direction="right" bgcolor="yellow" width="50%" behavior="slide" scrolldelay="1000">
+		This is a marquee element
+	</marquee>
+
+3. List Tag
+	There are 3 types of List:
+	1. <ol>..</ol>  -> Ordered List
+	2. <ul>..</ul>  -> Unordered List
+	3. <dl<..</dl>  -> Definition List
+
+	In Ordered List and Unordered List case, each list item start with <li> tag.
+
+Example:
+Ordered List
+	Attribute-
+		start= starting value
+		type= a,A,i,I,1
+
+	<ol start="10" type="i">
+		<li>This is a List Item1</li>
+		<li>This is a List Item2</li>
+		<li>This is a List Item3</li>
+		<li>This is a List Item4</li>
+		<li>This is a List Item5</li>
+	</ol>
+
+Unordered List
+	Attribute-
+		type= circle,square,disc,none
+		
+	<ul  type="none">
+		<li>This is a List Item1</li>
+		<li>This is a List Item2</li>
+		<li>This is a List Item3</li>
+		<li>This is a List Item4</li>
+		<li>This is a List Item5</li>
+	</ul>
+
+Definition List
+
+<dl>
+		<dt>Term</dt>
+		<dd>arrived on the Indian subcontinent from Africa no later than 55,000 years ago.</dd>
+	</dl>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
