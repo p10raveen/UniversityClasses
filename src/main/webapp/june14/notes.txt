@@ -1,0 +1,37 @@
+HTML Forms
+----------
+-> Form is used to send the request to sever.
+	<form>...</form>
+
+	Attributes-
+		name: specify form name
+		method: can be GET or POST (default:GET)
+		action: Specify server side file to be called
+
+Example:
+	<form name="registration" method="get" action="">
+
+	</form>
+	
+Difference b/w GET and POST?
+GET
+---
+-> Get Method produces a long string that appears in address bar.
+-> Get method is restricted to send upto 1024 characters only.
+-> never use GET method if you are using sensitive information.
+-> By using GET method, we can only send text request.
+
+POST
+----
+-> POST Method never produces a long string that appears in address bar.
+-> POST method does not have ant restriction on data to be sent.
+-> The data sent by POST method goes through HTTP header and its security depends on HTTP Protocol.
+->  By using POST method, we can send binary as well as text request.
+
+
+
+
+
+
+
+
