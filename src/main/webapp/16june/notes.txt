@@ -1,0 +1,188 @@
+CSS
+-> Cascading Style Sheet
+-> It is used to design HTML tags.
+-> It is a style sheet language which is used to describe the look and formatting
+	of a document written in markup language.
+-> Syntax:
+	
+		selector{property1:value1; property2:value2;}
+
+-> Example:
+
+	<style>
+		h1{color:blue; font-size:20px;}
+	</style>
+
+CSS Selector:
+-------------
+-> CSS selector are used to select the element you want to style.
+-> There are several different types of selector:
+	1. CSS Element Selector
+	2. CSS Id Selector
+	3. CSS Class Selector
+	4. CSS Universal Selector
+	5. CSS Group Selector
+
+1. CSS Element Selector
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	h1{color:blue; font-size:20px;}
+
+</style>
+</head>
+<body>
+	<h1>My First CSS Application</h1>
+	<h1>My Second CSS Application</h1>
+	<h1>My Third CSS Application</h1>
+	<p> This is a paragraph </p>
+</body>
+</html>
+
+2. CSS Id Selector
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	#a1{color:blue; font-size:20px;}
+	#a2{color:red; font-size:50px; text-align:center;}
+
+</style>
+</head>
+<body>
+	<h1 id="a1">My First CSS Application</h1>
+	<h1 id="a2">My Second CSS Application</h1>
+	<h1>My Third CSS Application</h1>
+	<p> This is a paragraph </p>
+</body>
+</html>
+
+3. CSS Class Selector
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+
+	.a1{color:red; font-size:50px; text-align:center;}
+
+</style>
+</head>
+<body>
+	<h1 class="a1">My First CSS Application</h1>
+	<h1>My Second CSS Application</h1>
+	<h1>My Third CSS Application</h1>
+	<p class="a1"> This is a paragraph </p>
+	
+</body>
+</html>
+
+3. CSS Class selector for specific element
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+
+	h1.a1{color:red; font-size:50px; text-align:center;}
+
+</style>
+</head>
+<body>
+	<h1 class="a1">My First CSS Application</h1>
+	<h1>My Second CSS Application</h1>
+	<h1>My Third CSS Application</h1>
+	<p class="a1"> This is a paragraph </p>
+	
+</body>
+</html>
+
+4. CSS Universal Selector
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+
+	*{color:red; font-size:50px; text-align:center;}
+
+</style>
+</head>
+<body>
+	<h1 class="a1">My First CSS Application</h1>
+	<h1 id="a2">My Second CSS Application</h1>
+	<h1>My Third CSS Application</h1>
+	<p class="a1"> This is a paragraph </p>
+	
+</body>
+</html>
+
+5. CSS Group Selector
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+
+	h2,p{color:red; font-size:50px; text-align:center;}
+
+</style>
+</head>
+<body>
+	<h1 class="a1">My First CSS Application</h1>
+	<h1 id="a2">My Second CSS Application</h1>
+	<h2>My Third CSS Application</h2>
+	<p class="a1"> This is a paragraph </p>
+	
+</body>
+</html>
+
+Task-1:
+-------
+Create a webpage that display the paragarph element with the following properties.
+a. Alignment: center   (text-align)
+b. font-size: 27pixel  (font-size)
+c. Font-name: Arial    (font-family)
+NOTE: Use CSS ID Selector
+
+Task-2:
+-------
+Write a external CSS file with the following attributes:
+a. font-size: 24pixel
+b. Body background: #00BAA
+NOTE: the text should be displayed in "Verdana" font.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

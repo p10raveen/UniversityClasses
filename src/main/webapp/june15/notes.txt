@@ -1,0 +1,77 @@
+Forms Elements
+--------------
+
+<input/> 
+----------
+
+Attributes-
+	name:
+	id:
+	class:
+	type: can be text, radio, email,date,hidden,checkbox,number,password
+	value:
+	placeholder: how to define the type
+	
+
+Values of type attribute
+	<input type=""/>
+
+	text
+	password
+	checkbox
+	radio
+	submit
+	reset
+	file
+	number
+	email
+	date
+	time
+
+Dropdown
+---------
+<select>
+	<option>...</option>
+	<option>...</option>
+	<option>...</option>
+	<option>...</option>
+</select>
+
+Example:
+<form name="" method="" action="">
+	<select>
+		<option disabled selected>Select City</option>
+		<option>Bhopal</option>
+		<option>Indore</option>
+		<option>Patna</option>
+		<option>Mumbai</option>
+		<option>Delhi</option>
+	</select>
+</form>
+
+Text Area
+
+<textarea></textarea>
+
+Task: create a Login Form
+---------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
