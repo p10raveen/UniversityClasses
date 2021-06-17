@@ -1,0 +1,83 @@
+How many ways to link CSS in the HTML?
+There are 3 ways:
+	1. Internal CSS
+	2. External CSS
+	3. Inline CSS
+
+-----------------Extra----------
+HTML: Displaying Data
+CSS:  Designing Data
+JS:   Coding at Client side
+--------------------------------
+
+
+Javascript  ******
+-----------	
+-> JS is a dynamic language that executes within a web browser.
+-> JS code is embedded within an HTML page using javascript page.
+-> The <script> tag is used to embedded javascript code.
+-> Javascipt code can be linked with-
+	1. An external file
+	2. The header of the page.
+	3. The body of the page.
+-> JS is used to create Interactive Webpages.
+-> It mainly used for:
+	1. Client Side Validation
+	2. Dynamic Dropdown menus
+	3. Displaying Date and time.
+	4. Set timer
+	5. Displaying popup window.
+	
+	
+
+Window <=> Web Browser
+document <=> display area of Web Browser	
+
+Example:
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script>
+	document.write("<h1>Hello Javascript</h1>");
+
+</script>
+
+
+</head>
+<body>
+</body>
+</html>
+
+
+Example:
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script>
+	function show()
+	{
+		value = "<h1>Hello Javascript</h1>";
+		document.getElementById("p1").innerHTML = value;
+	}
+	
+
+</script>
+</head>
+<body>
+	<button onclick="show()">Click Me!</button><br/>
+	<p id="p1">   </p>
+</body>
+</html>
+
+
+
+
+
+
+	
